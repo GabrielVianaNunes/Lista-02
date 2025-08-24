@@ -54,6 +54,7 @@ atividades_basicas/
 │  └─ atividades_basicas_test.dart # (gerado pelo template; opcional)
 ├─ pubspec.yaml                    # Metadados do pacote e dependências
 └─ README.md
+```
 
 📚 Exercícios implementados
 
