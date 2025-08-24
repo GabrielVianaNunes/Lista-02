@@ -10,10 +10,11 @@ void exercicio1() {
   stdout.writeln('Soma:          ${_fmt(a + b)}');
   stdout.writeln('Subtração:     ${_fmt(a - b)}');
   stdout.writeln('Multiplicação: ${_fmt(a * b)}');
-  if (b == 0)
+  if (b == 0) {
     stdout.writeln('Divisão:       não é possível dividir por zero.');
-  else
+  } else {
     stdout.writeln('Divisão:       ${_fmt(a / b)}');
+  }
 }
 
 void exercicio2() {
