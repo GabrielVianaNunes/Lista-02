@@ -40,7 +40,9 @@ Opcional: crie .vscode/launch.json com:
 
 Depois, abra o projeto no VS Code e aperte F5.
 
-🗂️ Estrutura
+## 🗂️ Estrutura do projeto
+
+```text
 atividades_basicas/
 ├─ bin/
 │  └─ atividades_basicas.dart      # Ponto de entrada (menu interativo)
