@@ -43,12 +43,14 @@ Depois, abra o projeto no VS Code e aperte F5.
 🗂️ Estrutura
 atividades_basicas/
 ├─ bin/
-│  └─ atividades_basicas.dart     # Menu principal / entrada
+│  └─ atividades_basicas.dart      # Ponto de entrada (menu interativo)
 ├─ lib/
 │  ├─ exercises.dart               # Lógica dos 10 exercícios
 │  └─ utils/
-│     └─ io.dart                   # Leitura/validação de input
-├─ pubspec.yaml
+│     └─ io.dart                   # Leitura/validação de input (helpers)
+├─ test/
+│  └─ atividades_basicas_test.dart # (gerado pelo template; opcional)
+├─ pubspec.yaml                    # Metadados do pacote e dependências
 └─ README.md
 
 📚 Exercícios implementados
